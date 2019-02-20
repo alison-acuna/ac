@@ -10,6 +10,15 @@ def gcd_loop(c, b):
             break
     return 1
 
+def even_gcd_loop(c, b):
+    print("14")
+    for d in range(c, 2, -2):
+        print(d)
+        if c % d == 0 and b % d == 0:
+            return d
+            break
+    return 1
+
 def gcd_naive(e, f):
     print("12")
     a = max(e, f)
@@ -55,7 +64,7 @@ def gcd_naive(e, f):
             print("c")
             print(c)
             i = i+1
-        first_gcd = gcd_loop(b, c)
+        first_gcd = even_gcd_loop(b, c)
         j = 2*i
         current_gcd = int(first_gcd)*j
     elif b%2==0 and c%2==1:

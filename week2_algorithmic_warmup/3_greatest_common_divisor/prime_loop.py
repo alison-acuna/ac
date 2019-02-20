@@ -2,16 +2,7 @@
 import sys
 
 def prime_loop(c, b):
-    a = max(e, f)
-    print(a)
-    b = min(e, f)
-    print(b)
-    c = a%b
-    print(c)
-    g = 157
-
     for d in range(2, c):
-        print(d)
         if c % d == 0:
             # if b%c == 0:
             #     return b/c

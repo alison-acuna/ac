@@ -1,19 +1,20 @@
 NS:
 
-1. Remove print statements
-2. Benchmark prime function vs gcd_loop
-3. Attempt is prime?
-
-
-def is_prime(num):
-    for x in range(2, num):
-        if (num % i) == 0:
+# eliminating 2s helped.
+Can I build more complicated if logic to only check prime numbers
 
 
 Failed case #16/22: time limit exceeded
 Input:
 707459358 1451906588
 2
+
+Prime attempt 2:
+
+67*2
+29*2
+
+134 58
 
 At almost 5 min, its better to test the prime algorithm than keep running
 
