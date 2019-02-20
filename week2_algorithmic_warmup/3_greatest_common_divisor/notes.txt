@@ -1,0 +1,134 @@
+NS:
+
+1. Remove print statements
+2. Benchmark prime function vs gcd_loop
+3. Attempt is prime?
+
+
+def is_prime(num):
+    for x in range(2, num):
+        if (num % i) == 0:
+
+
+Failed case #16/22: time limit exceeded
+Input:
+707459358 1451906588
+2
+
+At almost 5 min, its better to test the prime algorithm than keep running
+
+Your output:
+
+stderr:
+
+Test case - #16/22
+
+# 707459358 1451906588
+
+Test Case - prime thinking
+
+
+quotient = a result obtained by dividing one quantity by another.
+dividend = the number to be divided
+divisor =
+
+Dividend = D X Q + R,
+
+67*2+29 = 163
+
+
+a = 163
+b = 67
+
+Test Case prime1
+
+163 67
+
+Test Case prime2
+
+326 134
+
+Test Case prime3
+
+remainder is prime
+and fits into b
+
+a = 14*_+7
+b = 14
+c= 7
+
+
+Test case 1
+# 10
+# 10
+# 10
+
+Test case 2
+# 10 12
+# 2
+
+Test case 3
+# 10
+# 11
+# 1
+
+Test case 4
+# 96
+# 39
+# 1
+
+Test case 4
+# 11
+# 13
+# 1
+
+Test case 5 - Passed  Testing Pass 1
+# 1 2000000000
+# 1
+
+Test case 6 - Passed  Testing Pass 1
+# 18 35
+# 1
+
+Test case 7 - Passed  Testing Pass 1
+# 28851538 1183019
+# 17657
+
+Test case 8 - Passed  Testing Pass 1
+# 10 10
+# 10
+
+Test case 9 - Passed  Testing Pass 1
+# 2000000000 1
+# 1
+
+Test case 10 - Passed  Testing Pass 1
+# 150 145
+# 5
+
+# 150 3000
+# 150
+
+
+Test case 10.5 - Failed  Testing Pass 1
+*selected*
+# 28851538 17657000
+# 35314
+
+
+Test case 11 - Passed
+# 226553150 1023473145
+#
+
+Test case 12
+
+1827116622 251772294
+
+Psuedo Code:
+
+if a < 10000000 && b < 10000000
+  run gcd_loop(c, b)
+else
+  go through the work to make the numbers smaller
+  if a < 10000000 && b < 10000000
+    go through the work to make the numbers smaller
